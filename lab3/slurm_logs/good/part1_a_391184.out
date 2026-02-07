@@ -1,0 +1,171 @@
+Job started on Fri Oct 17 08:10:42 PM EDT 2025
+Running on nodes: scholar-j000
+Using GPUs: 
+Using CPUs per task: 4
+------------------------------------------------
+Current directory is: /home/akadur/AIF2Lab3
+Device being used: cuda
+
+Starting Part 3 (a): Wikipedia RAG (n=1 to 10)...
+
+BM25 Searcher initialized using index: bm25_wiki_index
+
+--- Running RAG with n=1 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=1 (EM=0.0973, F1=0.2373) | Time: 160.58s
+
+--- Running RAG with n=2 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=2 (EM=0.0775, F1=0.2139) | Time: 190.03s
+
+--- Running RAG with n=3 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=3 (EM=0.0613, F1=0.1886) | Time: 231.59s
+
+--- Running RAG with n=4 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=4 (EM=0.0450, F1=0.1717) | Time: 267.06s
+
+--- Running RAG with n=5 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=5 (EM=0.0306, F1=0.1588) | Time: 304.84s
+
+--- Running RAG with n=6 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=6 (EM=0.0342, F1=0.1592) | Time: 343.91s
+
+--- Running RAG with n=7 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=7 (EM=0.0306, F1=0.1533) | Time: 373.71s
+
+--- Running RAG with n=8 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=8 (EM=0.0324, F1=0.1530) | Time: 415.06s
+
+--- Running RAG with n=9 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=9 (EM=0.0306, F1=0.1458) | Time: 451.43s
+
+--- Running RAG with n=10 retrieved passages ---
+Processed 50/555 examples.
+Processed 100/555 examples.
+Processed 150/555 examples.
+Processed 200/555 examples.
+Processed 250/555 examples.
+Processed 300/555 examples.
+Processed 350/555 examples.
+Processed 400/555 examples.
+Processed 450/555 examples.
+Processed 500/555 examples.
+Processed 550/555 examples.
+n=10 (EM=0.0270, F1=0.1430) | Time: 490.86s
+
+
+=== Part 3 (a) Results Summary: RAG Performance vs. n ===
+n   | EM     | F1    
+---------------
+1   | 0.0973 | 0.2373
+2   | 0.0775 | 0.2139
+3   | 0.0613 | 0.1886
+4   | 0.0450 | 0.1717
+5   | 0.0306 | 0.1588
+6   | 0.0342 | 0.1592
+7   | 0.0306 | 0.1533
+8   | 0.0324 | 0.1530
+9   | 0.0306 | 0.1458
+10  | 0.0270 | 0.1430
+---------------
+| Best EM Score: 0.0973
+| Best F1 Score: 0.2373
+------------------------------------------------
+Job finished on Fri Oct 17 09:06:39 PM EDT 2025

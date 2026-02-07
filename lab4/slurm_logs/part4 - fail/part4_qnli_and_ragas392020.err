@@ -1,0 +1,7 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Traceback (most recent call last):
+  File "/home/akadur/AIF2Lab3/ragas.py", line 15, in <module>
+    from ragas import evaluate
+  File "/home/akadur/AIF2Lab3/ragas.py", line 15, in <module>
+    from ragas import evaluate
+ImportError: cannot import name 'evaluate' from partially initialized module 'ragas' (most likely due to a circular import) (/home/akadur/AIF2Lab3/ragas.py)

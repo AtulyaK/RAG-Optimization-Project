@@ -1,0 +1,9 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:07<00:21,  7.16s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:14<00:14,  7.19s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:21<00:07,  7.09s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:23<00:00,  4.96s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:23<00:00,  5.76s/it]
+Oct 17, 2025 6:53:46 PM org.apache.lucene.store.MMapDirectory lookupProvider
+WARNING: You are running with Java 22 or later. To make full use of MMapDirectory, please update Apache Lucene.
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::invokeCleaner has been called by org.apache.lucene.store.MappedByteBufferIndexInputProvider (file:/home/akadur/.conda/envs/cent7/2024.02-py311/aiForge/lib/python3.11/site-packages/pyserini/resources/jars/anserini-1.1.1-fatjar.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.lucene.store.MappedByteBufferIndexInputProvider
+WARNING: sun.misc.Unsafe::invokeCleaner will be removed in a future release

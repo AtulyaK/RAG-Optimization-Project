@@ -1,0 +1,7 @@
+WARNING: Using incubator modules: jdk.incubator.vector
+Oct 17, 2025 4:14:27 PM org.apache.lucene.store.MMapDirectory lookupProvider
+WARNING: You are running with Java 22 or later. To make full use of MMapDirectory, please update Apache Lucene.
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::invokeCleaner has been called by org.apache.lucene.store.MappedByteBufferIndexInputProvider (file:/home/akadur/.conda/envs/cent7/2024.02-py311/aiForge/lib/python3.11/site-packages/pyserini/resources/jars/anserini-1.1.1-fatjar.jar)
+WARNING: Please consider reporting this to the maintainers of class org.apache.lucene.store.MappedByteBufferIndexInputProvider
+WARNING: sun.misc.Unsafe::invokeCleaner will be removed in a future release
