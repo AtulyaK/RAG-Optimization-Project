@@ -1,0 +1,171 @@
+Job started on Fri Oct 17 05:55:51 PM EDT 2025
+Running on nodes: scholar-j000
+Using GPUs: 
+Using CPUs per task: 4
+------------------------------------------------
+Current directory is: /home/akadur/AIF2Lab3
+Using device: cuda
+Loading 550 sample data from: /home/akadur/AIF2Lab1StarterCode/data/dev.jsonl
+
+Running Part 3 (a): Wikipedia RAG (n=1 to 10)...
+Wikipedia Searcher initialized using index at: /home/akadur/AIF2Lab3/bm25_wiki_index/
+
+--- Running RAG Experiment (Context Before Question) with n=1 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=1 (EM=0.0745, F1=0.1735)
+
+--- Running RAG Experiment (Context Before Question) with n=2 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=2 (EM=0.0636, F1=0.1606)
+
+--- Running RAG Experiment (Context Before Question) with n=3 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=3 (EM=0.0673, F1=0.1551)
+
+--- Running RAG Experiment (Context Before Question) with n=4 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=4 (EM=0.0582, F1=0.1519)
+
+--- Running RAG Experiment (Context Before Question) with n=5 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=5 (EM=0.0564, F1=0.1478)
+
+--- Running RAG Experiment (Context Before Question) with n=6 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=6 (EM=0.0564, F1=0.1463)
+
+--- Running RAG Experiment (Context Before Question) with n=7 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=7 (EM=0.0564, F1=0.1468)
+
+--- Running RAG Experiment (Context Before Question) with n=8 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=8 (EM=0.0582, F1=0.1519)
+
+--- Running RAG Experiment (Context Before Question) with n=9 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=9 (EM=0.0509, F1=0.1472)
+
+--- Running RAG Experiment (Context Before Question) with n=10 passages ---
+Processed 50/550 examples.
+Processed 100/550 examples.
+Processed 150/550 examples.
+Processed 200/550 examples.
+Processed 250/550 examples.
+Processed 300/550 examples.
+Processed 350/550 examples.
+Processed 400/550 examples.
+Processed 450/550 examples.
+Processed 500/550 examples.
+Processed 550/550 examples.
+n=10 (EM=0.0527, F1=0.1491)
+
+
+=== Part 3 (a) Results Summary: Wikipedia RAG ===
+n   | EM     | F1    
+---------------
+1   | 0.0745 | 0.1735
+2   | 0.0636 | 0.1606
+3   | 0.0673 | 0.1551
+4   | 0.0582 | 0.1519
+5   | 0.0564 | 0.1478
+6   | 0.0564 | 0.1463
+7   | 0.0564 | 0.1468
+8   | 0.0582 | 0.1519
+9   | 0.0509 | 0.1472
+10  | 0.0527 | 0.1491
+---------------
+| Best EM Score: 0.0745
+| Best F1 Score: 0.1735
+------------------------------------------------
+Job finished on Fri Oct 17 06:51:33 PM EDT 2025

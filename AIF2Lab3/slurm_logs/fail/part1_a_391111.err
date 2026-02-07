@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/akadur/AIF2Lab3/build_index.py", line 88, in <module>
+    build_wikipedia_index(WIKI_DATA_PATH, WIKI_INDEX_PATH, COLLECTION_DIR)
+  File "/home/akadur/AIF2Lab3/build_index.py", line 45, in build_wikipedia_index
+    doc_id = doc.get("id")
+             ^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
