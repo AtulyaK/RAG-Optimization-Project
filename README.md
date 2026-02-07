@@ -1,6 +1,10 @@
 # RAG-Optimization-Project
 This project implements a two-stage Retrieval-Augmented Generation (RAG) pipeline designed to optimize Question Answering performance by addressing context overload through Cross-Encoder re-ranking. By evaluating models such as MS Marco and QNLI against a BM25 baseline, the research explores the performance trade-offs between complex retrieval architectures and instruction-based alignment. The results indicate that while re-ranking provides incremental gains, the most significant improvements in Exact Match (EM) and F1 scores are driven by rigorous prompt engineering, suggesting that for high-precision NLP tasks, the quality of output constraints can be as critical as the retrieval mechanism itself.
 
+I included the PDF of the paper in the repo. The graphs were not loaded here in the Markdown file.
+
+Acknowledgements: I want to recognize Tunazia Islam, Tania Chakraboraty, and Jincheng Zhou for their help in getting this project to happen through the CS 390 AIF class at Purdue.
+
 **Abstract**  
 This study implemented a two-stage Retrieval-Augmented Generation (RAG) pipeline incorporating a Cross-Encoder re-ranking step to address context overload in Question Answering (QA) tasks. Initial experiments showed only modest, technology-dependent gains from re-ranking, with the QNLI model marginally outperforming MS Marco variants due to better domain alignment. Crucially, the final experiment revealed that the most significant performance increase was achieved by introducing a highly restrictive system prompt. This gain stemmed from enforcing strict output alignment with the EM and f1 metrics, confirming that for strict QA evaluation, prompt engineering is the most impactful factor, overriding the complex gains from retrieval and ranking refinements.
 
